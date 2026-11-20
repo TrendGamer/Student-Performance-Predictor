@@ -1,0 +1,22 @@
+{
+  "dataset": "Reproducible synthetic demonstration data",
+  "rows_after_duplicate_and_target_cleanup": 1200,
+  "train_rows": 960,
+  "test_rows": 240,
+  "selection_rule": "Lowest holdout MAE; RMSE breaks ties",
+  "selected_model": "Linear Regression",
+  "models": {
+    "Linear Regression": {
+      "MAE": 5.24907365364725,
+      "MSE": 43.962683629807756,
+      "RMSE": 6.630436156830692,
+      "R2": 0.717633410852541
+    },
+    "Random Forest": {
+      "MAE": 5.707139256435915,
+      "MSE": 52.16098094807124,
+      "RMSE": 7.222255945898847,
+      "R2": 0.6649768153164749
+    }
+  }
+}
